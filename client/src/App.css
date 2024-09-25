@@ -1,0 +1,96 @@
+body {
+    height: 100vh;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+}
+
+#root {
+    height: 100%;
+}
+
+.main-container, .list-group-item, .modal-content, .card {
+   background-color: #fbf5f3;
+}
+
+.navbar {
+    background-color: #000022;
+}
+
+.navbar-brand {
+    color: #fbf5f3;
+}
+
+.navbar-brand:hover {
+    color: #e28413;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.btn-primary {
+    background-color: #fbf5f3;
+    border-color: #e28413;
+    color: #e28413;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #e28413;
+    border-color: #e28413;
+    color: #fbf5f3;
+    transition: 300ms;
+}
+
+.navbar-btn {
+    background-color: transparent;
+    border: none;
+    color: #fbf5f3;
+    font-weight: 600;
+}
+
+.navbar-btn:hover {
+    color: #e28413;
+    background-color: transparent;
+    transition: 300ms;
+}
+
+.list-group-item-action:hover {
+    background-color: #fbf5f3;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 12%);
+    transform: scale(1.01);
+    transition: 100ms;
+}
+
+.correctCaptionClass {
+    box-shadow: inset 0px 0px 3px 4px #6a994e;
+    background-color: #a7c95781;
+    transition: all 1s ease-in-out;
+}
+
+.bi-check-lg {
+    color: #6a994e;
+    font-size: 1.3rem;
+}
+
+.wrongCaptionClass {
+    box-shadow: inset 0px 0px 3px 4px #cb1b16;
+    background-color: #f2937984;
+    transition: all 1s ease-in-out;
+}
+
+.bi-x-lg {
+    color: #cb1b16;
+    font-size: 1.2rem;
+}
+
+.modal-header .btn-close {
+    margin-left: 0px;
+}
+
+.navbar, .card, .modal-content, .history-row {
+    box-shadow: 0 5px 10px rgb(0 0 0 / 12%);
+}
+
+.history-row {
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 0.375rem;
+}
