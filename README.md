@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/J0Dv0VMM)
 # Exam #1: "Gioco dei Meme"
 ## Student: s331578 SILVESTRE GIORGIO 
 
@@ -304,6 +303,6 @@
 
 ## How to Run the Application
 
-Open two terminals and use respetively:
+Open two terminals and use respectively:
 - cd client; npm install; npm run dev
 - cd server; npm install; nodemon index.mjs
