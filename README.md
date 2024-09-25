@@ -301,3 +301,9 @@
 
 - username: GioSilve, password: password1 
 - username: Luigi DeRussis, password: password2
+
+## How to Run the Application
+
+Open two terminals and use respetively:
+- cd client; npm install; npm run dev
+- cd server; npm install; nodemon index.mjs
